@@ -1,0 +1,107 @@
+BOOKSKEY PROJECT
+
+<button  id="btn">show</button>
+<script>
+    var button=document.getElementById("btn")
+    button.addEventListener("click",function()){   //it is function to easy call the element
+        alert("hello")
+    }
+    
+</script>
+
+
+ONE BUTTON HAS MULTIPLE FUNCTIONS
+
+<button id="btn">show</button>
+
+<script>
+
+var button = document.getElementById("btn")
+button. addEventListener("mouseover", function(){
+alert("Mouse over")
+})
+
+button. addEventListener("click", function(){
+alert("Hello")
+})
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<style>
+    .overlay{
+        background-color: black;
+        width: 100%;
+        height: 1005;
+        position :absolute;
+        top:0px;
+        left: 0px;
+        opacity:0.8;
+        z-index: 1;
+        display:none;
+    }
+    .popupbox{
+        position :absolute;
+        z-index:3;
+        background-color: white;
+        color:black;
+        width: 40%;
+        padding: 20px;
+        border-radius: 10px;
+        left:30%;
+        display:none;
+
+    }
+</style>
+
+
+<button onclick="show()">Show</button>
+<div class="overlay"></div>
+<div class="popupbox">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta pariatur ratione odit commodi culpa. Expedita eligendi dolor ex dignissimos qui.</p>
+    <button onclick="closepopup()">close</button>
+</div>
+
+<script>
+    //popup overlay
+    //popup box
+    var popupoverlay=document.querySelector(".overlay")
+    var popupbox=document.querySelector(".popupbox")
+    function show(){
+        popupbox.style.display="block"
+        popupoverlay.style.display="block"
+
+    }
+    function closepopup(){
+        popupbox.style.display="none"
+        popupoverlay.style.display="none"
+    }
+</script> -->
+<button id="btn">show</button>
+
+<script>
+
+var button = document.getElementById("btn")
+button. addEventListener("mouseover", function(){
+alert("Mouse over")
+})
+
+button. addEventListener("click", function(){
+alert("Hello")
+})
+
+
+
+</script>
